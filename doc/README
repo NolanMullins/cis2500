@@ -1,0 +1,43 @@
+**********************************************
+Nolan Mullins		0939720
+CIS 2500			Assignment 3
+2016-03-13
+**********************************************
+
+**********************************************
+Compilation
+**********************************************
+gcc -Wall -std=c99 -lncurses -Iinclude src/* -o run.out
+or
+make
+
+**********************************************
+Usage
+**********************************************
+./run.out assets/map0.lvl
+or
+make run
+
+./run.out 'path to level file'
+Program will not run unless there are atleast 1 arguements
+
+**********************************************
+Testing
+**********************************************
+To test the program I used a custom map, a friends map and then a hybrid
+of the 2 + test cases from A2
+
+**********************************************
+Limitations
+**********************************************
+Dont put a space after the line in a level file, it just puts an ^@ in 
+the corner of a room
+
+Cordinates in the room have to come before the doors
+
+You should probably adjust ur terminal window to fit the game
+
+**********************************************
+References
+**********************************************
+Stackoverflow
